@@ -57,7 +57,8 @@
 
     &__menu{
         position: absolute;
-        width: calc(100% - 3rem);
+        z-index: 1000;
+        width: calc(100% - 3rem);//1.5rem at each side
         left: 50%;
         transform: translate(-50%);
         background: $white;
@@ -105,16 +106,6 @@
                     opacity: 1;
                 }
             }
-        }
-    }
-
-    &__cta{
-        font-size: $font-small;
-        color: $white;
-        transition: opacity 300ms ease-in-out;
-
-        &:hover{
-            opacity: 0.75;
         }
     }
 

@@ -22,15 +22,15 @@ function addOpen(){
     }
 }
 
-function addFade(element){
+function addFade(element){//fade all elements with fade class
     element.classList.remove('fade-out');
     element.classList.add('fade-in');
 }
 
-function removeFade(element){
+function removeFade(element){//fade out all elements with fade class
     element.classList.remove('fade-in');
     element.classList.add('fade-out');
 }
 
-header.addEventListener('click', addOpen);
+btnHamburger.addEventListener('click', addOpen);
 
