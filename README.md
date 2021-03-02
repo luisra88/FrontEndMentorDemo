@@ -1,4 +1,4 @@
-# mycvproject
-Project to build my CV as a web page.
+#Front End mentor demo
 
+Front end mentor Demo 
 This is created to learn and apply html, css and js while improving my project experience.
